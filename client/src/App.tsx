@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { ThemeProvider } from './lib/ThemeProvider'
 import { Navbar } from './components/layout/Navbar'
 import { Footer } from './components/layout/Footer'
@@ -25,6 +26,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </ThemeProvider>
   )
 }
