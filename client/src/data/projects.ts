@@ -2,7 +2,7 @@ import type { ProjectEntry } from './types'
 
 export const projects: ProjectEntry[] = [
   {
-    title: 'UWI Chatbot — Phase 1',
+    title: 'UWI Chatbot - Phase 1',
     description:
       'Turned a student capstone project into a production-ready chatbot for the University of the West Indies: vector databases built from public UWI content, an admin dashboard for managing knowledge sources, an LLM-powered query API, and a deployed chat widget.',
     tags: ['LLM', 'Vector DB', 'Admin Dashboard', 'API'],
@@ -10,11 +10,11 @@ export const projects: ProjectEntry[] = [
   {
     title: 'UWI GPT: A Personalized Academic Advisor',
     description:
-      'Presented at DESRIST 2025 (the 20th International Conference on Design Science Research in Information Systems and Technology), Ocean Coral Spring, Jamaica — a personalized AI academic advisor concept co-authored with Michael Webb et al.',
+      'Presented at DESRIST 2025 (the 20th International Conference on Design Science Research in Information Systems and Technology), Ocean Coral Spring, Jamaica - a personalized AI academic advisor concept co-authored with Michael Webb et al.',
     tags: ['AI', 'Research', 'DESRIST 2025'],
   },
   {
-    title: 'Talawa Admin & API — Session Management',
+    title: 'Talawa Admin & API - Session Management',
     description:
       'Proposed, designed, and shipped a full session management feature for the Palisadoes Foundation’s Talawa platform: pre-timeout warning notifications, seamless login redirects, and admin-configurable session durations to align security with real user activity.',
     tags: ['Open Source', 'Security', 'UX'],
@@ -31,7 +31,7 @@ export const projects: ProjectEntry[] = [
     tags: ['SSE', 'Migration', 'Testing'],
   },
   {
-    title: 'Clinical Studies Dashboard — Performance Optimization',
+    title: 'Clinical Studies Dashboard - Performance Optimization',
     description:
       'Researched, validated, and tested performance optimization solutions for a U.S.-based pharmaceutical company, improving the speed and responsiveness of a clinical studies dashboard used in global research operations.',
     tags: ['Performance', 'Healthcare', 'POCs'],

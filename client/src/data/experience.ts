@@ -23,7 +23,7 @@ export const experience: ExperienceEntry[] = [
     ],
   },
   {
-    role: 'Contractor — UWI Chatbot Project (Capstone Implementation)',
+    role: 'Contractor - UWI Chatbot Project (Capstone Implementation)',
     org: 'University of the West Indies',
     period: 'August – October 2025',
     bullets: [

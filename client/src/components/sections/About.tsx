@@ -5,7 +5,7 @@ import { profile } from '../../data/profile'
 
 const facts = [
   { icon: Briefcase, label: 'Currently', value: 'Digital Implementation Officer, UCC' },
-  { icon: GraduationCap, label: 'Education', value: 'BSc Computer Science, First Class Honors — UWI Mona' },
+  { icon: GraduationCap, label: 'Education', value: 'BSc Computer Science, First Class Honors - UWI Mona' },
   { icon: MapPin, label: 'Based in', value: profile.location },
 ]
 
@@ -16,7 +16,7 @@ export function About() {
       <div className="grid gap-12 md:grid-cols-[1.4fr_1fr]">
         <p className="text-lg leading-relaxed text-text-muted">
           {profile.summary} I've contributed to open-source at the Palisadoes Foundation, mentored
-          programming students, and taught Computer Science at UWI Mona — work that keeps my
+          programming students, and taught Computer Science at UWI Mona - work that keeps my
           communication and problem-solving skills as sharp as my code.
         </p>
         <ul className="space-y-6">

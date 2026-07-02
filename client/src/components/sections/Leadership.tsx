@@ -8,7 +8,7 @@ export function Leadership() {
       <SectionHeading
         eyebrow="Beyond the Code"
         title="Leadership & community"
-        subtitle="Coaching, mentoring, and representing — the roles that shaped how I lead."
+        subtitle="Coaching, mentoring, and representing - the roles that shaped how I lead."
       />
       <ul className="grid gap-4 sm:grid-cols-2">
         {leadership.map((entry) => (

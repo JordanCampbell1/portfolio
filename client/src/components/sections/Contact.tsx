@@ -11,7 +11,7 @@ export function Contact() {
       <SectionHeading
         eyebrow="Contact"
         title="Let's build something"
-        subtitle="Open to new opportunities and collaborations — reach out any of these ways."
+        subtitle="Open to new opportunities and collaborations - reach out any of these ways."
       />
       <div className="flex flex-wrap gap-4">
         <IconLink

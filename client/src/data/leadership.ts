@@ -12,7 +12,7 @@ export const leadership: LeadershipEntry[] = [
     period: 'Jun 2016 – Present',
   },
   {
-    title: 'Table Tennis — Represented Jamaica',
+    title: 'Table Tennis - Represented Jamaica',
     org: 'National Team',
     period: '2016 – 2020',
   },
