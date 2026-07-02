@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+@import '@fontsource/space-grotesk/700.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+}
+
+:root {
+  --bg: #fafaf9;
+  --surface: #ffffff;
+  --text: #14151a;
+  --text-muted: #52525b;
+  --border: #e4e4e7;
+  --accent: #4f46e5;
+  --accent-2: #0ea5a5;
+}
+
+.dark {
+  --bg: #0b0d12;
+  --surface: #14161d;
+  --text: #f4f4f5;
+  --text-muted: #a1a1aa;
+  --border: #2a2d37;
+  --accent: #818cf8;
+  --accent-2: #22d3ee;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-bg text-text font-sans transition-colors duration-300;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--surface);
+  }
+}

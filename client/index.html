@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jordan Campbell | Software Developer</title>
+    <meta
+      name="description"
+      content="Jordan Campbell — Software Developer specializing in Python, Java, and React, building AI-enabled solutions and full-stack applications."
+    />
+
+    <meta property="og:title" content="Jordan Campbell | Software Developer" />
+    <meta
+      property="og:description"
+      content="Jordan Campbell — Software Developer specializing in Python, Java, and React, building AI-enabled solutions and full-stack applications."
+    />
+    <meta property="og:url" content="https://jordanjcampbell.com" />
+    <meta property="og:type" content="website" />
+
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf9" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0d12" />
+
+    <script>
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var isDark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', isDark);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
