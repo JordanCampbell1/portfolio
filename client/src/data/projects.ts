@@ -19,7 +19,7 @@ export const projects: ProjectEntry[] = [
       'Proposed, designed, and shipped a full session management feature for the Palisadoes Foundation’s Talawa platform: pre-timeout warning notifications, seamless login redirects, and admin-configurable session durations to align security with real user activity.',
     tags: ['Open Source', 'Security', 'UX'],
     links: [
-      { label: 'Palisadoes announcement', url: 'https://www.palisadoes.org/news/2024/05/30/jordan-campbell-our-2024-calico-challenge-awardee/' },
+      { label: 'Palisadoes announcement', url: 'https://www.palisadoes.org/2024/08/' },
       { label: 'Demo video', url: 'https://www.youtube.com/watch?v=nHxc1QiLNYk&t=144s&ab_channel=ThePalisadoesFoundation' },
       { label: 'Talk', url: 'https://www.youtube.com/watch?v=NR_D2jhidQU' },
     ],
