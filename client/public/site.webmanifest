@@ -1,0 +1,13 @@
+{
+  "name": "Jordan Campbell | Software Developer",
+  "short_name": "Jordan Campbell",
+  "description": "Jordan Campbell — Software Developer specializing in Python, Java, and React, building AI-enabled solutions and full-stack applications.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
